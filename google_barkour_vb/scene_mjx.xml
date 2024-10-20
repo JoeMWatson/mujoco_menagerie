@@ -1,6 +1,6 @@
 <mujoco model="barkour vB scene">
   <include file="barkour_vb_mjx.xml"/>
-
+  <option solver="Newton" iterations="1" ls_iterations="4"/>
   <statistic center="0 0 0.1" extent="0.8"/>
 
   <visual>

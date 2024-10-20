@@ -3,7 +3,8 @@
 
   <statistic center="0.3 0 0.4" extent="1"/>
 
-  <option timestep="0.005" iterations="5" ls_iterations="8" integrator="implicitfast">
+<!--  <option timestep="0.005" iterations="5" ls_iterations="8" integrator="implicitfast">-->
+  <option solver="Newton" iterations="1" ls_iterations="4">
     <flag eulerdamp="disable"/>
   </option>
 
